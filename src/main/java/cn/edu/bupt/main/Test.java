@@ -5,7 +5,8 @@ package cn.edu.bupt.main;
  */
 public class Test {
     int a = 1;
-    public static void main(String[] agrs){
+    public static void main(String[] agrs) throws Exception{
+        int a = 1/0;
         System.out.println("1");
     }
 }
